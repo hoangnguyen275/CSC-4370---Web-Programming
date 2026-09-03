@@ -1,0 +1,44 @@
+/* Homepage image container */
+.image {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Homepage image frame styling */
+.image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  background: rgb(248, 248, 248);
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 3px;
+  box-shadow: inset 0px 1px 2px 0px rgb(238, 238, 238), 0px 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Content section spacing */
+.content {
+  margin-top: 20px;
+}
+
+/* First paragraph on homepage */
+.content .para-one {
+  font-size: 24px;
+  color: rgb(255, 182, 193);
+  margin: 10px 0;
+}
+
+/* Second paragraph on homepage */
+.content .para-two {
+  font-size: 39px;
+  color: rgb(0, 255, 255);
+  margin: 10px 0;
+}
+
+/* Third paragraph on homepage */
+.content .para-three {
+  font-size: 30px;
+  color: rgb(255, 99, 71);
+  margin: 10px 0;
+}

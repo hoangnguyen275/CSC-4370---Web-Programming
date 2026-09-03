@@ -1,0 +1,73 @@
+/* Second page image container */
+.image {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Second page image border and frame */
+.image img {
+  display: block;
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  padding: 6px;
+  background: #f5f5f5;
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 4px;
+  box-shadow: inset 0px 1px 2px 0px rgb(238, 238, 238), 0px 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Main content area on second page */
+.content {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* First list block styling */
+.para-one li {
+  margin: 10px 0;
+  color: #7a2b5f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* Second bullet item in the first list */
+.para-one li:nth-child(2) {
+  color: #0b7dda;
+  font-size: 22px;
+  font-style: italic;
+}
+
+/* Third bullet item in the first list */
+.para-one li:nth-child(3) {
+  color: #d95f5f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Second paragraph on second page */
+.para-two {
+  font-size: 39px;
+  line-height: 1.3;
+  color: #00b7ff;
+  font-weight: 700;
+  font-family: "Trebuchet MS", sans-serif;
+  margin-top: 24px;
+}
+
+/* Third paragraph on second page */
+.para-three {
+  font-size: 30px;
+  line-height: 1.4;
+  color: #d64045;
+  font-family: Georgia, serif;
+  font-style: italic;
+  margin-top: 24px;
+  padding: 14px 18px;
+  border: 2px solid #d64045;
+  border-radius: 8px;
+  background: #fff2f2;
+}

@@ -1,0 +1,53 @@
+/* Third page image container */
+.image {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Third page image frame */
+.image img {
+  display: block;
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  padding: 6px;
+  background: #f7f7f7;
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 4px;
+  box-shadow: inset 0px 1px 2px 0px rgb(238, 238, 238), 0px 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Content section for third page */
+.content {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* First paragraph on third page */
+.para-one {
+  font-size: 24px;
+  color: #f4c542;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  margin: 12px 0;
+}
+
+/* Second paragraph on third page */
+.para-two {
+  font-size: 32px;
+  color: #ff66c4;
+  font-weight: 600;
+  font-family: Georgia, serif;
+  margin: 12px 0;
+}
+
+/* Third paragraph on third page */
+.para-three {
+  font-size: 20px;
+  color: #2a9df4;
+  font-weight: 500;
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 12px 0;
+}
