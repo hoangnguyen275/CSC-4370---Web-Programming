@@ -1,16 +1,16 @@
 /* Use :root to define the color palette for the entire page. */
 :root {
-  --primary: #5B6FE8;
-  --primary-dark: #3F4FB8;
-  --background: #F7F9FC;
-  --surface: #FFFFFF;
-  --text-primary: #252A3A;
-  --text-secondary: #667085;
-  --border-color: #DDE3EC;
-  --font-main: Arial, sans-serif;
+  --primary: #5B6FE8; /* blue-purple */
+  --primary-dark: #3F4FB8; /* dark blue-purple */
+  --background: #b7cbea; /* light blue */
+  --surface: #e6f1fa; /* very light blue */
+  --text-primary: #252A3A; /* dark navy-gray */
+  --text-secondary: #667085; /* gray-blue */
+  --border-color: #DDE3EC; /* light gray-blue */
+  --font-main: Arial, sans-serif; /* main font */
 }
 
-/* Styling the body */
+/* Styling the body, with the light blue as a background */
 body {
   margin: 0;
   padding: 40px 20px;
@@ -22,7 +22,7 @@ body {
 /* Styling the about card, this would be the container, that contains contents, inside the main */
 .about-card {
   background-color: var(--surface);
-  border: 1px solid var(--border-color);
+  border: 5px solid var(--border-color);
   border-radius: 12px;
   padding: 32px;
   max-width: 800px;
