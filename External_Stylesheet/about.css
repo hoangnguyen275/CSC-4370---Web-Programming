@@ -1,0 +1,116 @@
+/*
+  COLOR PALETTE
+
+  This section defines the color palette used throughout the page so the design looks consistent and professional.
+
+  Primary Blue:      #5B6FE8
+  Primary Dark:      #3F4FB8
+  Secondary Blue:    #63C3E6
+  Background:        #F7F9FC
+  Surface White:     #FFFFFF
+  Main Text:         #252A3A
+  Secondary Text:    #667085
+  Border:            #DDE3EC
+*/
+
+/* This selector creates reusable custom properties for the color palette and font so the design stays consistent across the page. */
+:root {
+  /* This variable stores the primary brand blue that is used for important text and links. */
+  --primary: #5B6FE8;
+  /* This variable stores the darker blue used for stronger emphasis and hover states. */
+  --primary-dark: #3F4FB8;
+  /* This variable stores the secondary blue for a lighter accent color. */
+  --secondary: #63C3E6;
+
+  /* This variable stores the page background color so the overall layout stays light and clean. */
+  --background: #F7F9FC;
+  /* This variable stores the card and surface color used for content blocks. */
+  --surface: #FFFFFF;
+
+  /* This variable sets the main dark text color so the content is easy to read. */
+  --text-primary: #252A3A;
+  /* This variable stores the softer text color for paragraphs and supporting content. */
+  --text-secondary: #667085;
+
+  /* This variable stores the border color used for subtle outlines and separation. */
+  --border-color: #DDE3EC;
+
+  /* This variable defines the main font used across the page for a modern look. */
+  --font-main: "Inter", Arial, sans-serif;
+}
+
+/* This rule resets the default spacing of the body and gives the page consistent padding around the content. */
+body {
+  /* This removes the browser's default margin so the page fills the viewport cleanly. */
+  margin: 0;
+  /* This adds space above and below the content and around the page edges. */
+  padding: 40px 20px;
+
+  /* This sets the page background color to the chosen light neutral tone. */
+  background-color: var(--background);
+  /* This applies the main dark text color for readability across the page. */
+  color: var(--text-primary);
+
+  /* This sets the page font to the custom Inter/Arial stack for a modern, clean style. */
+  font-family: var(--font-main);
+}
+
+/* This rule limits the content width and centers it on the page for a polished layout. */
+main {
+  /* This keeps the central content area from becoming too wide on large screens. */
+  max-width: 800px;
+  /* This centers the content horizontally within the page. */
+  margin: 0 auto;
+}
+
+/* This rule styles the card that contains the about information. */
+.about-card {
+  /* This sets the card background to white so it stands out from the page background. */
+  background-color: var(--surface);
+
+  /* This adds a subtle border around the card to separate it from the page. */
+  border: 1px solid var(--border-color);
+  /* This rounds the corners so the card has a softer, modern appearance. */
+  border-radius: 12px;
+
+  /* This adds internal spacing so the content inside the card is not cramped. */
+  padding: 32px;
+}
+
+/* This rule styles the main heading so it stands out with the primary brand color. */
+h1 {
+  /* This makes the page title use the main company blue for emphasis. */
+  color: var(--primary);
+}
+
+/* This rule styles the secondary headings to create visual hierarchy on the page. */
+h2 {
+  /* This sets the section heading color to the darker brand blue for contrast. */
+  color: var(--primary-dark);
+  /* This adds spacing above each subheading to separate sections cleanly. */
+  margin-top: 30px;
+}
+
+/* This rule styles paragraph text to be soft, readable, and visually distinct from headings. */
+p {
+  /* This sets paragraph text to the secondary text color for a calm, readable look. */
+  color: var(--text-secondary);
+  /* This increases line spacing so text is easier to read and feels less crowded. */
+  line-height: 1.7;
+}
+
+/* This rule styles links so they match the app's blue brand color. */
+a {
+  /* This makes links use the primary blue to match the design theme. */
+  color: var(--primary);
+  /* This removes the default underline to keep the links looking clean and modern. */
+  text-decoration: none;
+}
+
+/* This rule changes how links look when the mouse hovers over them. */
+a:hover {
+  /* This updates the link color to the darker blue to provide feedback to the user. */
+  color: var(--primary-dark);
+  /* This adds an underline on hover so the link looks interactive and clickable. */
+  text-decoration: underline;
+}
