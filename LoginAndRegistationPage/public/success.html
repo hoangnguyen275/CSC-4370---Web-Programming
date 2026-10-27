@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logged in</title>
+</head>
+<body>
+  <!-- server.js redirects here after a successful /login -->
+  <h1>You have logged in successfully</h1>
+  <!-- the /logout route in server.js sends the user back to login.html -->
+  <form action="/logout" method="POST">
+    <button type="submit">Log out</button>
+  </form>
+</body>
+</html>
